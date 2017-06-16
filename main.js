@@ -1,9 +1,15 @@
+/*
+Start the server with
+node main.js 
+
+*/
+
 var express = require('express');
 var app = express();
 //Static resources server
 app.use(express.static(__dirname + '/www'));
 
-var server = app.listen(8082, function () {
+var server = app.listen(6505, function () {
     var port = server.address().port;
     console.log('Server running at port %s', port);
 });
@@ -23,3 +29,5 @@ io.on('connection', function(client) {
 
       //  game.addTank({ id: tank.id, type: tank.type, hp: TANK_INIT_HP});
     });
+
+  });

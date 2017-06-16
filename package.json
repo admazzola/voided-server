@@ -2,7 +2,7 @@
   "name": "voided-server",
   "version": "1.0.0",
   "description": "MMO server for the online game named voided",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
