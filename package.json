@@ -1,0 +1,24 @@
+{
+  "name": "voided-server",
+  "version": "1.0.0",
+  "description": "MMO server for the online game named voided",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admazzola/voided-server.git"
+  },
+  "keywords": [
+    "mmo",
+    "space",
+    "voided"
+  ],
+  "author": "admazzola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/admazzola/voided-server/issues"
+  },
+  "homepage": "https://github.com/admazzola/voided-server#readme"
+}
